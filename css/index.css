@@ -16,7 +16,14 @@ body {
 .swiper-container {
   height: 100%;
   overflow: hidden;
-  background: #21c5bb;
+  background: url('../imgs/1/背景.png') no-repeat center;
+  -webkit-background-size: cover;
+  /* Safari 3.0 */
+  -moz-background-size: cover;
+  /* Gecko 1.9.2 (Firefox 3.6) */
+  -o-background-size: cover;
+  /* Opera 9.5 */
+  background-size: cover;
 }
 .swiper-container .music {
   width: 10%;
@@ -31,27 +38,25 @@ body {
 }
 .swiper-container .content {
   height: 100%;
-  background: url('../imgs/1/背景.png') no-repeat center / cover;
-  animation: slideInUp 1s ease-in-out both;
   position: relative;
 }
 .swiper-container .swiper-slide:nth-child(1) .circle {
   width: 100%;
   margin-top: -3%;
-  animation: rotateZ 3s linear 1s infinite;
+  -webkit-animation: rotateZ 3s linear infinite;
 }
 .swiper-container .swiper-slide:nth-child(1) .luntan {
   width: 46%;
   position: absolute;
   top: 24%;
-  animation: slideInLeft 2s linear both 1s;
+  -webkit-animation: slideInLeft 2s linear both;
 }
 .swiper-container .swiper-slide:nth-child(1) .wumai {
   width: 80%;
   position: absolute;
   top: 28%;
   left: 110%;
-  animation: slideInRight 2s linear both 2s;
+  -webkit-animation: slideInRight 2s linear both 1s;
 }
 .swiper-container .swiper-slide:nth-child(1) .yaoqing {
   width: 80%;
@@ -59,42 +64,42 @@ body {
   top: 66%;
   left: 10%;
   opacity: 0;
-  animation: yaoqing 2s linear both 3s;
+  -webkit-animation: yaoqing 2s linear both 2s;
 }
 .swiper-container .swiper-slide:nth-child(2) .intro {
-  width: 40%;
+  width: 50%;
   position: absolute;
   right: 20%;
   top: 4%;
-  animation: slideLeft 1s ease-in-out 1s both;
+  -webkit-animation: slideLeft 1s ease-in-out both;
   opacity: 0;
 }
 .swiper-container .swiper-slide:nth-child(2) .bg {
   width: 100%;
   position: absolute;
-  top: 12%;
+  top: 14%;
   left: 0;
-  animation: slideRight 1s ease-in-out 1s both;
+  -webkit-animation: slideRight 1s ease-in-out both;
   opacity: 0;
 }
 .swiper-container .swiper-slide:nth-child(2) .title {
   position: absolute;
-  top: 16%;
+  top: 18%;
   left: 10%;
   font-size: 1.2rem;
   width: 78%;
-  animation: zoomIn 2s 1.5s both;
+  -webkit-animation: zoomIn 2s 0.5s both;
 }
 .swiper-container .swiper-slide:nth-child(2) .daxue {
   width: 60%;
   position: absolute;
-  top: 30%;
+  top: 32%;
   left: 28%;
   line-height: 1.4rem;
   list-style: none;
   font-size: 0.9rem;
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2s;
+  -webkit-animation-delay: 1s;
 }
 .swiper-container .swiper-slide:nth-child(2) .time {
   width: 60%;
@@ -104,69 +109,69 @@ body {
   font-size: 0.9rem;
   line-height: 1.4rem;
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2.8s;
+  -webkit-animation-delay: 1.8s;
 }
 .swiper-container .swiper-slide:nth-child(2) .introduce {
   width: 60%;
   position: absolute;
-  top: 60%;
+  top: 58%;
   left: 28%;
   font-size: 0.9rem;
   line-height: 1.4rem;
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 3.6s;
+  -webkit-animation-delay: 2.6s;
 }
 .swiper-container .swiper-slide:nth-child(2) h4 {
   color: #edff88;
 }
 .swiper-container .swiper-slide:nth-child(2) .lianhe {
   position: absolute;
-  top: 30%;
+  top: 32%;
   left: 12%;
-  animation: slideLeft 1s ease-in-out 1s both;
+  -webkit-animation: slideLeft 1s ease-in-out 0s both;
   opacity: 0;
 }
 .swiper-container .swiper-slide:nth-child(2) .chengzhi {
   position: absolute;
-  top: 65%;
+  top: 57.6%;
   left: 4%;
-  animation: slideLeft 1s ease-in-out 1s both;
+  -webkit-animation: slideLeft 1s ease-in-out 0s both;
   opacity: 0;
 }
 .swiper-container .swiper-slide:nth-child(2) .point {
   width: 1rem;
   position: absolute;
-  left: 20%;
-  animation: slideLeft 1s ease-in-out 1s both;
+  left: 20.4%;
+  -webkit-animation: slideLeft 1s ease-in-out 0s both;
   opacity: 0;
 }
 .swiper-container .swiper-slide:nth-child(2) .point1 {
-  top: 31%;
+  top: 32.6%;
 }
 .swiper-container .swiper-slide:nth-child(2) .point2 {
-  top: 66%;
+  top: 58.4%;
 }
 .swiper-container .swiper-slide:nth-child(4) .zhixing {
   width: 50%;
   margin-top: 10%;
   margin-bottom: 4%;
-  animation: slideRight 1s 1s both;
+  -webkit-animation: slideRight 1s  both;
 }
 .swiper-container .swiper-slide:nth-child(4) .photo {
   width: 100%;
   margin-top: -2%;
 }
 .swiper-container .swiper-slide:nth-child(4) .photo:nth-child(2) {
-  animation-delay: 1.5s;
+  -webkit-animation-delay: 0.5s;
 }
 .swiper-container .swiper-slide:nth-child(4) .photo:nth-child(3) {
-  animation-delay: 2s;
+  -webkit-animation-delay: 1s;
 }
 .swiper-container .swiper-slide:nth-child(4) .photo:nth-child(4) {
-  animation-delay: 2.5s;
+  -webkit-animation-delay: 1.5s;
 }
 .swiper-container .swiper-slide:nth-child(4) .photo:nth-child(5) {
-  animation-delay: 3s;
+  -webkit-animation-delay: 2s;
 }
 .swiper-container .swiper-slide:nth-child(3) img {
   width: 94%;
@@ -175,29 +180,29 @@ body {
 .swiper-container .swiper-slide:nth-child(3) .first {
   width: 107%;
   margin-top: 12%;
-  animation-delay: 2s;
+  -webkit-animation-delay: 1s;
 }
 .swiper-container .swiper-slide:nth-child(3) .second {
   width: 100%;
   margin-top: -10%;
-  animation-delay: 2.5s;
+  -webkit-animation-delay: 1.5s;
 }
 .swiper-container .swiper-slide:nth-child(3) .three {
   margin-top: -6%;
-  animation-delay: 3s;
+  -webkit-animation-delay: 2s;
 }
 .swiper-container .swiper-slide:nth-child(3) .title {
   width: 50%;
   margin-top: 2%;
   opacity: 0;
-  animation: slideLeft 1s 1s both;
+  -webkit-animation: slideLeft 1s 0s both;
 }
 .swiper-container .swiper-slide:nth-child(5) .title {
   float: right;
   width: 50%;
   margin-top: 8%;
   opacity: 0;
-  animation: slideLeft 1s 1s both;
+  -webkit-animation: slideLeft 1s 0s both;
 }
 .swiper-container .swiper-slide:nth-child(5) .map {
   float: left;
@@ -206,7 +211,7 @@ body {
   background: #ccc;
   margin-top: 5%;
   -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 1s;
+  -webkit-animation-delay: 0s;
 }
 .swiper-container .swiper-slide:nth-child(5) .anpai {
   width: 100%;
@@ -236,14 +241,21 @@ body {
   position: absolute;
   width: 1.171875rem;
   height: 1.171875rem;
-  background: url('../imgs/论坛－论坛安排/点.png') no-repeat center / contain;
+  background: url('../imgs/论坛－论坛安排/点.png') no-repeat center;
+  -webkit-background-size: cover;
+  /* Safari 3.0 */
+  -moz-background-size: cover;
+  /* Gecko 1.9.2 (Firefox 3.6) */
+  -o-background-size: cover;
+  /* Opera 9.5 */
+  background-size: cover;
   top: 0;
-  left: -0.6rem;
+  left: -0.68rem;
 }
 .swiper-container .swiper-slide:nth-child(5) .anpai .place {
   position: absolute;
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 1.8s;
+  -webkit-animation-delay: 0.8s;
 }
 .swiper-container .swiper-slide:nth-child(5) .anpai .place .item {
   top: 0;
@@ -260,7 +272,14 @@ body {
   content: '';
   width: 1.2rem;
   height: 1.4rem;
-  background: url('../imgs/论坛－论坛安排/定位.png') no-repeat center / contain;
+  background: url('../imgs/论坛－论坛安排/定位.png') no-repeat center;
+  -webkit-background-size: contain;
+  /* Safari 3.0 */
+  -moz-background-size: contain;
+  /* Gecko 1.9.2 (Firefox 3.6) */
+  -o-background-size: contain;
+  /* Opera 9.5 */
+  background-size: contain;
   position: absolute;
   top: 0;
   left: -0.54rem;
@@ -269,14 +288,14 @@ body {
   position: absolute;
   top: 2rem;
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2s;
+  -webkit-animation-delay: 1s;
 }
 .swiper-container .swiper-slide:nth-child(5) .anpai .date1 .item3 {
   height: 2rem;
 }
 .swiper-container .swiper-slide:nth-child(5) .anpai .date2 {
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2.4s;
+  -webkit-animation-delay: 1.4s;
   position: absolute;
   top: 4rem;
 }
@@ -285,7 +304,7 @@ body {
 }
 .swiper-container .swiper-slide:nth-child(5) .anpai .date3 {
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2.8s;
+  -webkit-animation-delay: 1.8s;
   position: absolute;
   top: 7rem;
 }
@@ -295,16 +314,23 @@ body {
 .swiper-container .swiper-slide:nth-child(6) .title {
   width: 50%;
   margin-top: 6%;
-  animation: slideRight 1s 1s both;
+  -webkit-animation: slideRight 1s 0s both;
 }
 .swiper-container .swiper-slide:nth-child(6) .info {
   width: 21.875rem;
   height: 26.171875rem;
-  background: url('../imgs/论坛－参会代表/背景1.png') no-repeat center / contain;
+  background: url('../imgs/论坛－参会代表/背景1.png') no-repeat center;
+  -webkit-background-size: cover;
+  /* Safari 3.0 */
+  -moz-background-size: cover;
+  /* Gecko 1.9.2 (Firefox 3.6) */
+  -o-background-size: cover;
+  /* Opera 9.5 */
+  background-size: cover;
   float: right;
   margin-top: 6%;
   -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 1s;
+  -webkit-animation-delay: 0s;
 }
 .swiper-container .swiper-slide:nth-child(6) .info p {
   line-height: 1.25rem;
@@ -314,52 +340,59 @@ body {
 }
 .swiper-container .swiper-slide:nth-child(6) .info p:nth-child(1) {
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2s;
+  -webkit-animation-delay: 1s;
 }
 .swiper-container .swiper-slide:nth-child(6) .info p:nth-child(2) {
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2.5s;
+  -webkit-animation-delay: 1.5s;
 }
 .swiper-container .swiper-slide:nth-child(6) .info p:nth-child(3) {
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 3s;
+  -webkit-animation-delay: 2s;
 }
 .swiper-container .swiper-slide:nth-child(6) .info p:nth-child(4) {
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 3.5s;
+  -webkit-animation-delay: 2.5s;
 }
 .swiper-container .swiper-slide:nth-child(6) .info p:nth-child(5) {
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 4s;
+  -webkit-animation-delay: 3s;
 }
 .swiper-container .swiper-slide:nth-child(7) .title {
   width: 50%;
   position: absolute;
   bottom: 4rem;
   right: 0;
-  animation: slideLeft 1s 1s both;
+  -webkit-animation: slideLeft 1s 0s both;
 }
 .swiper-container .swiper-slide:nth-child(7) .feiyong {
   width: 100%;
   margin-top: 10%;
-  animation-delay: 2s;
+  -webkit-animation-delay: 1s;
 }
 .swiper-container .swiper-slide:nth-child(8) .title {
   width: 50%;
   position: absolute;
   bottom: 6rem;
   left: 0;
-  animation: slideRight 1s 1s both;
+  -webkit-animation: slideRight 1s 0s both;
 }
 .swiper-container .swiper-slide:nth-child(8) .bg {
-  width: 22.5rem;
-  height: 14.84375rem;
-  background: url('../imgs/论坛－联系方式/底纹.png') no-repeat center / contain;
+  width: 21rem;
+  height: 14.1rem;
+  background: url('../imgs/论坛－联系方式/111.png') no-repeat center;
+  -webkit-background-size: contain;
+  /* Safari 3.0 */
+  -moz-background-size: contain;
+  /* Gecko 1.9.2 (Firefox 3.6) */
+  -o-background-size: contain;
+  /* Opera 9.5 */
+  background-size: contain;
   position: absolute;
   right: 0;
   top: 9.375rem;
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 1s;
+  -webkit-animation-delay: 0s;
 }
 .swiper-container .swiper-slide:nth-child(8) .bg li {
   list-style: none;
@@ -370,7 +403,14 @@ body {
   float: left;
   margin-left: 1.09375rem;
   width: 3.125rem;
-  background: no-repeat center / auto 2.734375rem;
+  background: no-repeat center;
+  -webkit-background-size: auto 2.734375rem;
+  /* Safari 3.0 */
+  -moz-background-size: auto 2.734375rem;
+  /* Gecko 1.9.2 (Firefox 3.6) */
+  -o-background-size: auto 2.734375rem;
+  /* Opera 9.5 */
+  background-size: auto 2.734375rem;
   height: 100%;
 }
 .swiper-container .swiper-slide:nth-child(8) .bg li .right {
@@ -382,7 +422,7 @@ body {
 }
 .swiper-container .swiper-slide:nth-child(8) .bg li:nth-child(1) {
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 1.5s;
+  -webkit-animation-delay: 0.5s;
 }
 .swiper-container .swiper-slide:nth-child(8) .bg li:nth-child(1) .left {
   background-image: url('../imgs/论坛－联系方式/联系人.png');
@@ -392,7 +432,7 @@ body {
 }
 .swiper-container .swiper-slide:nth-child(8) .bg li:nth-child(2) {
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2s;
+  -webkit-animation-delay: 1s;
 }
 .swiper-container .swiper-slide:nth-child(8) .bg li:nth-child(2) .left {
   background-image: url('../imgs/论坛－联系方式/电话.png');
@@ -402,7 +442,7 @@ body {
 }
 .swiper-container .swiper-slide:nth-child(8) .bg li:nth-child(3) {
   -webkit-animation-duration: 1s;
-  -webkit-animation-delay: 2.5s;
+  -webkit-animation-delay: 1.5s;
 }
 .swiper-container .swiper-slide:nth-child(8) .bg li:nth-child(3) .left {
   background-image: url('../imgs/论坛－联系方式/邮箱.png');
@@ -411,7 +451,7 @@ body {
   padding-top: 1rem;
 }
 .animateRotating {
-  animation: rotating 1.2s linear infinite;
+  -webkit-animation: rotating 1.2s linear infinite;
 }
 @keyframes rotating {
   0% {

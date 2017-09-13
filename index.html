@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport"  content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-  <title>H5</title>
+  <title>中国科协青年科学家论坛</title>
   <link rel="stylesheet" href="lib/animate.min.css">
   <link rel="stylesheet" href="lib/swiper-3.4.2.min.css">
-  <link rel="stylesheet" href="css/index.css?91211">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"/>
+  <link rel="stylesheet" href="css/index.css?1638">
   <script>
   /******设置根元素字体大小*******/
   !function(win,doc){
@@ -42,14 +43,14 @@
             <img src="imgs/2/点.png" alt="" class="once point1 point">
             <img src="imgs/2/点.png" alt="" class="once point2 point">
             <div class="title">中国气象学会依托中国科协学术会议示范品牌项目</div>
-            <ul class="daxue once animated flipInX">
+            <ul class="daxue once animated fadeIn">
               <li>南京信息工程大学</li>
               <li>中国气象科学研究院</li>
               <li>中国科学院大气物理研究所</li>
               <li>北京大学等单位</li>
             </ul>
-            <p class="time once  animated flipInX">将于11月1日-2日<br>在北京湖北大厦举办青年科学家论坛</p>
-            <p class="introduce once  animated flipInX">从事大气雾霾观测和数值预报、雾霾形成机制、雾霾对极端天气影响，以及气溶胶的气候效应等研究领域的青年气象科技工作者报名参加。</p>
+            <p class="time once  animated fadeIn">将于11月1日-2日<br>在北京湖北大厦举办青年科学家论坛</p>
+            <p class="introduce once  animated fadeIn">从事大气雾霾观测和数值预报、雾霾形成机制、雾霾对极端天气影响，以及气溶胶的气候效应等研究领域的青年气象科技工作者报名参加。</p>
             <h4 class="lianhe once">联合</h4>
             <h4 class="chengzhi once">诚挚邀请</h4>
           </div>
@@ -69,10 +70,10 @@
         <div class="swiper-slide">
           <div class="content once">
             <img src="imgs/3/执行主席标题.png" alt="" class="zhixing once">
-            <img src="imgs/3/陈海山.png" alt="" class="chs photo once animated zoomInUp">
-            <img src="imgs/3/郭建平.png" alt="" class="gjp photo once animated zoomInUp">
-            <img src="imgs/3/李  婧.png" alt="" class="lj photo once  animated zoomInUp">
-            <img src="imgs/3/陈尚锋.png" alt="" class="csf photo once  animated zoomInUp">
+            <img src="imgs/3/陈海山.png" alt="" class="chs photo once animated rollIn">
+            <img src="imgs/3/郭建平.png" alt="" class="gjp photo once animated rollIn">
+            <img src="imgs/3/李  婧.png" alt="" class="lj photo once  animated rollIn">
+            <img src="imgs/3/陈尚锋.png" alt="" class="csf photo once  animated rollIn">
           </div>
         </div>
         <!-- 第五屏  论坛安排-->
@@ -126,7 +127,7 @@
           <div class="once content">
             <img src="imgs/论坛－联系方式/联系方式表腿.png" class="title once">
             <ul class="bg once animated flipInX">
-              <li class="once animated flipInX">
+             <!--  <li class="once animated flipInX">
                 <div class="left"></div>
                 <div class="right">
                   李 婧 陈尚峰
@@ -143,7 +144,7 @@
                 <div class="right">
                   <p>jing-li@pku.edu.cn</p>
                   <p>chenshangfeng@mail.iap.ac.cn</p>
-                </div></li>
+                </div></li> -->
             </ul>
           </div>
         </div>
@@ -151,12 +152,12 @@
     <!-- 如果需要分页器 -->
     <div class="swiper-pagination"></div>
 </div>
-    <audio src="./mp3/The Hit House - Celestite.mp3" autoplay id="mp3">
+    <audio src="./mp3/bg.mp3" autoplay loop id="mp3">
     Your browser does not support the audio tag.
     </audio>
     <script src="lib/jquery-1.10.1.min.js"></script>
     <script src="lib/swiper-3.4.2.jquery.min.js"></script>  
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=BhAPt186QV1FwifpfIHbfjG3wgraYB8m"></script>
-    <script src="js/index.js?91211"></script>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="js/index.js?1638"></script>
 </body>
 </html>
